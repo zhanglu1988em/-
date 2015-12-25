@@ -26,6 +26,7 @@
 		29C50C5F1C2D360800DE8BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C50C621C2D360800DE8BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C50C641C2D360800DE8BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C50C6D1C2D37A100DE8BBD /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		29C50C471C2D360800DE8BBD = {
 			isa = PBXGroup;
 			children = (
+				29C50C6C1C2D370C00DE8BBD /* General utilities */,
 				29C50C521C2D360800DE8BBD /* SudoKuDemo */,
 				29C50C511C2D360800DE8BBD /* Products */,
 			);
@@ -77,6 +79,15 @@
 				29C50C541C2D360800DE8BBD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29C50C6C1C2D370C00DE8BBD /* General utilities */ = {
+			isa = PBXGroup;
+			children = (
+				29C50C6D1C2D37A100DE8BBD /* Screen.h */,
+			);
+			name = "General utilities";
+			path = SudoKuDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
